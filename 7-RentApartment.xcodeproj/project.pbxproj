@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DCB05898188595C40028E913 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCB05897188595C40028E913 /* Foundation.framework */; };
+		DCB0589A188595C40028E913 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCB05899188595C40028E913 /* CoreGraphics.framework */; };
+		DCB0589C188595C40028E913 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCB0589B188595C40028E913 /* UIKit.framework */; };
+		DCB0589E188595C40028E913 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCB0589D188595C40028E913 /* CoreData.framework */; };
+		DCB058A4188595C40028E913 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DCB058A2188595C40028E913 /* InfoPlist.strings */; };
+		DCB058A6188595C40028E913 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB058A5188595C40028E913 /* main.m */; };
+		DCB058AA188595C40028E913 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB058A9188595C40028E913 /* AppDelegate.m */; };
+		DCB058AD188595C40028E913 /* __RentApartment.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DCB058AB188595C40028E913 /* __RentApartment.xcdatamodeld */; };
+		DCB058AF188595C40028E913 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCB058AE188595C40028E913 /* Images.xcassets */; };
+		DCB058B6188595C40028E913 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCB058B5188595C40028E913 /* XCTest.framework */; };
+		DCB058B7188595C40028E913 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCB05897188595C40028E913 /* Foundation.framework */; };
+		DCB058B8188595C40028E913 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCB0589B188595C40028E913 /* UIKit.framework */; };
+		DCB058B9188595C40028E913 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCB0589D188595C40028E913 /* CoreData.framework */; };
+		DCB058C1188595C40028E913 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DCB058BF188595C40028E913 /* InfoPlist.strings */; };
+		DCB058C3188595C40028E913 /* __RentApartmentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB058C2188595C40028E913 /* __RentApartmentTests.m */; };
+		DCB058CF188596380028E913 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB058CD188596380028E913 /* LoginViewController.m */; };
+		DCB058D0188596380028E913 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCB058CE188596380028E913 /* LoginViewController.xib */; };
+		DCB058D3188598CC0028E913 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB058D2188598CC0028E913 /* User.m */; };
+		DCB058D718859FB00028E913 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB058D518859FB00028E913 /* RegisterViewController.m */; };
+		DCB058D818859FB00028E913 /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCB058D618859FB00028E913 /* RegisterViewController.xib */; };
+		DCB058E11885B68C0028E913 /* ApartamentsCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB058DF1885B68C0028E913 /* ApartamentsCollectionViewController.m */; };
+		DCB058E21885B68C0028E913 /* ApartamentsCollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCB058E01885B68C0028E913 /* ApartamentsCollectionViewController.xib */; };
+		DCB058E51885B9F90028E913 /* ApartmentsCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB058E41885B9F90028E913 /* ApartmentsCollectionViewCell.m */; };
+		DCB058E71885BAED0028E913 /* ApartmentsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCB058E61885BAED0028E913 /* ApartmentsCollectionViewCell.xib */; };
+		DCB058EA1885BDF30028E913 /* Apartment.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB058E91885BDF30028E913 /* Apartment.m */; };
+		DCB058EC1885C1960028E913 /* defaultImage.png in Resources */ = {isa = PBXBuildFile; fileRef = DCB058EB1885C1960028E913 /* defaultImage.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DCB058BA188595C40028E913 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCB0588C188595C40028E913 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCB05893188595C40028E913;
+			remoteInfo = "7-RentApartment";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DCB05894188595C40028E913 /* 7-RentApartment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "7-RentApartment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCB05897188595C40028E913 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DCB05899188595C40028E913 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DCB0589B188595C40028E913 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DCB0589D188595C40028E913 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		DCB058A1188595C40028E913 /* 7-RentApartment-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "7-RentApartment-Info.plist"; sourceTree = "<group>"; };
+		DCB058A3188595C40028E913 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DCB058A5188595C40028E913 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DCB058A7188595C40028E913 /* 7-RentApartment-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "7-RentApartment-Prefix.pch"; sourceTree = "<group>"; };
+		DCB058A8188595C40028E913 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DCB058A9188595C40028E913 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DCB058AC188595C40028E913 /* __RentApartment.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = __RentApartment.xcdatamodel; sourceTree = "<group>"; };
+		DCB058AE188595C40028E913 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DCB058B4188595C40028E913 /* 7-RentApartmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "7-RentApartmentTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCB058B5188595C40028E913 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		DCB058BE188595C40028E913 /* 7-RentApartmentTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "7-RentApartmentTests-Info.plist"; sourceTree = "<group>"; };
+		DCB058C0188595C40028E913 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DCB058C2188595C40028E913 /* __RentApartmentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __RentApartmentTests.m; sourceTree = "<group>"; };
+		DCB058CC188596380028E913 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		DCB058CD188596380028E913 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		DCB058CE188596380028E913 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		DCB058D1188598CC0028E913 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		DCB058D2188598CC0028E913 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		DCB058D418859FB00028E913 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		DCB058D518859FB00028E913 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		DCB058D618859FB00028E913 /* RegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegisterViewController.xib; sourceTree = "<group>"; };
+		DCB058DE1885B68C0028E913 /* ApartamentsCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApartamentsCollectionViewController.h; sourceTree = "<group>"; };
+		DCB058DF1885B68C0028E913 /* ApartamentsCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApartamentsCollectionViewController.m; sourceTree = "<group>"; };
+		DCB058E01885B68C0028E913 /* ApartamentsCollectionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ApartamentsCollectionViewController.xib; sourceTree = "<group>"; };
+		DCB058E31885B9F90028E913 /* ApartmentsCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApartmentsCollectionViewCell.h; sourceTree = "<group>"; };
+		DCB058E41885B9F90028E913 /* ApartmentsCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApartmentsCollectionViewCell.m; sourceTree = "<group>"; };
+		DCB058E61885BAED0028E913 /* ApartmentsCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ApartmentsCollectionViewCell.xib; sourceTree = "<group>"; };
+		DCB058E81885BDF30028E913 /* Apartment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Apartment.h; sourceTree = "<group>"; };
+		DCB058E91885BDF30028E913 /* Apartment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Apartment.m; sourceTree = "<group>"; };
+		DCB058EB1885C1960028E913 /* defaultImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = defaultImage.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCB05891188595C40028E913 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCB0589A188595C40028E913 /* CoreGraphics.framework in Frameworks */,
+				DCB0589E188595C40028E913 /* CoreData.framework in Frameworks */,
+				DCB0589C188595C40028E913 /* UIKit.framework in Frameworks */,
+				DCB05898188595C40028E913 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCB058B1188595C40028E913 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCB058B6188595C40028E913 /* XCTest.framework in Frameworks */,
+				DCB058B9188595C40028E913 /* CoreData.framework in Frameworks */,
+				DCB058B8188595C40028E913 /* UIKit.framework in Frameworks */,
+				DCB058B7188595C40028E913 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DCB0588B188595C40028E913 = {
+			isa = PBXGroup;
+			children = (
+				DCB0589F188595C40028E913 /* 7-RentApartment */,
+				DCB058BC188595C40028E913 /* 7-RentApartmentTests */,
+				DCB05896188595C40028E913 /* Frameworks */,
+				DCB05895188595C40028E913 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DCB05895188595C40028E913 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCB05894188595C40028E913 /* 7-RentApartment.app */,
+				DCB058B4188595C40028E913 /* 7-RentApartmentTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCB05896188595C40028E913 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DCB05897188595C40028E913 /* Foundation.framework */,
+				DCB05899188595C40028E913 /* CoreGraphics.framework */,
+				DCB0589B188595C40028E913 /* UIKit.framework */,
+				DCB0589D188595C40028E913 /* CoreData.framework */,
+				DCB058B5188595C40028E913 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DCB0589F188595C40028E913 /* 7-RentApartment */ = {
+			isa = PBXGroup;
+			children = (
+				DCB058EB1885C1960028E913 /* defaultImage.png */,
+				DCB058A8188595C40028E913 /* AppDelegate.h */,
+				DCB058A9188595C40028E913 /* AppDelegate.m */,
+				DCB058AE188595C40028E913 /* Images.xcassets */,
+				DCB058AB188595C40028E913 /* __RentApartment.xcdatamodeld */,
+				DCB058E81885BDF30028E913 /* Apartment.h */,
+				DCB058E91885BDF30028E913 /* Apartment.m */,
+				DCB058D1188598CC0028E913 /* User.h */,
+				DCB058D2188598CC0028E913 /* User.m */,
+				DCB058A0188595C40028E913 /* Supporting Files */,
+				DCB058CC188596380028E913 /* LoginViewController.h */,
+				DCB058CD188596380028E913 /* LoginViewController.m */,
+				DCB058CE188596380028E913 /* LoginViewController.xib */,
+				DCB058D418859FB00028E913 /* RegisterViewController.h */,
+				DCB058D518859FB00028E913 /* RegisterViewController.m */,
+				DCB058D618859FB00028E913 /* RegisterViewController.xib */,
+				DCB058DE1885B68C0028E913 /* ApartamentsCollectionViewController.h */,
+				DCB058DF1885B68C0028E913 /* ApartamentsCollectionViewController.m */,
+				DCB058E01885B68C0028E913 /* ApartamentsCollectionViewController.xib */,
+				DCB058E31885B9F90028E913 /* ApartmentsCollectionViewCell.h */,
+				DCB058E41885B9F90028E913 /* ApartmentsCollectionViewCell.m */,
+				DCB058E61885BAED0028E913 /* ApartmentsCollectionViewCell.xib */,
+			);
+			path = "7-RentApartment";
+			sourceTree = "<group>";
+		};
+		DCB058A0188595C40028E913 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DCB058A1188595C40028E913 /* 7-RentApartment-Info.plist */,
+				DCB058A2188595C40028E913 /* InfoPlist.strings */,
+				DCB058A5188595C40028E913 /* main.m */,
+				DCB058A7188595C40028E913 /* 7-RentApartment-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DCB058BC188595C40028E913 /* 7-RentApartmentTests */ = {
+			isa = PBXGroup;
+			children = (
+				DCB058C2188595C40028E913 /* __RentApartmentTests.m */,
+				DCB058BD188595C40028E913 /* Supporting Files */,
+			);
+			path = "7-RentApartmentTests";
+			sourceTree = "<group>";
+		};
+		DCB058BD188595C40028E913 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DCB058BE188595C40028E913 /* 7-RentApartmentTests-Info.plist */,
+				DCB058BF188595C40028E913 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCB05893188595C40028E913 /* 7-RentApartment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCB058C6188595C40028E913 /* Build configuration list for PBXNativeTarget "7-RentApartment" */;
+			buildPhases = (
+				DCB05890188595C40028E913 /* Sources */,
+				DCB05891188595C40028E913 /* Frameworks */,
+				DCB05892188595C40028E913 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "7-RentApartment";
+			productName = "7-RentApartment";
+			productReference = DCB05894188595C40028E913 /* 7-RentApartment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DCB058B3188595C40028E913 /* 7-RentApartmentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCB058C9188595C40028E913 /* Build configuration list for PBXNativeTarget "7-RentApartmentTests" */;
+			buildPhases = (
+				DCB058B0188595C40028E913 /* Sources */,
+				DCB058B1188595C40028E913 /* Frameworks */,
+				DCB058B2188595C40028E913 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCB058BB188595C40028E913 /* PBXTargetDependency */,
+			);
+			name = "7-RentApartmentTests";
+			productName = "7-RentApartmentTests";
+			productReference = DCB058B4188595C40028E913 /* 7-RentApartmentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCB0588C188595C40028E913 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Alexander Drazhev";
+				TargetAttributes = {
+					DCB058B3188595C40028E913 = {
+						TestTargetID = DCB05893188595C40028E913;
+					};
+				};
+			};
+			buildConfigurationList = DCB0588F188595C40028E913 /* Build configuration list for PBXProject "7-RentApartment" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DCB0588B188595C40028E913;
+			productRefGroup = DCB05895188595C40028E913 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCB05893188595C40028E913 /* 7-RentApartment */,
+				DCB058B3188595C40028E913 /* 7-RentApartmentTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCB05892188595C40028E913 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCB058E71885BAED0028E913 /* ApartmentsCollectionViewCell.xib in Resources */,
+				DCB058A4188595C40028E913 /* InfoPlist.strings in Resources */,
+				DCB058AF188595C40028E913 /* Images.xcassets in Resources */,
+				DCB058E21885B68C0028E913 /* ApartamentsCollectionViewController.xib in Resources */,
+				DCB058D0188596380028E913 /* LoginViewController.xib in Resources */,
+				DCB058EC1885C1960028E913 /* defaultImage.png in Resources */,
+				DCB058D818859FB00028E913 /* RegisterViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCB058B2188595C40028E913 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCB058C1188595C40028E913 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCB05890188595C40028E913 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCB058EA1885BDF30028E913 /* Apartment.m in Sources */,
+				DCB058D3188598CC0028E913 /* User.m in Sources */,
+				DCB058D718859FB00028E913 /* RegisterViewController.m in Sources */,
+				DCB058CF188596380028E913 /* LoginViewController.m in Sources */,
+				DCB058AD188595C40028E913 /* __RentApartment.xcdatamodeld in Sources */,
+				DCB058AA188595C40028E913 /* AppDelegate.m in Sources */,
+				DCB058E11885B68C0028E913 /* ApartamentsCollectionViewController.m in Sources */,
+				DCB058A6188595C40028E913 /* main.m in Sources */,
+				DCB058E51885B9F90028E913 /* ApartmentsCollectionViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCB058B0188595C40028E913 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCB058C3188595C40028E913 /* __RentApartmentTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DCB058BB188595C40028E913 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCB05893188595C40028E913 /* 7-RentApartment */;
+			targetProxy = DCB058BA188595C40028E913 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DCB058A2188595C40028E913 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCB058A3188595C40028E913 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DCB058BF188595C40028E913 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCB058C0188595C40028E913 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DCB058C4188595C40028E913 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		DCB058C5188595C40028E913 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCB058C7188595C40028E913 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "7-RentApartment/7-RentApartment-Prefix.pch";
+				INFOPLIST_FILE = "7-RentApartment/7-RentApartment-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DCB058C8188595C40028E913 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "7-RentApartment/7-RentApartment-Prefix.pch";
+				INFOPLIST_FILE = "7-RentApartment/7-RentApartment-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DCB058CA188595C40028E913 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/7-RentApartment.app/7-RentApartment";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "7-RentApartment/7-RentApartment-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "7-RentApartmentTests/7-RentApartmentTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		DCB058CB188595C40028E913 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/7-RentApartment.app/7-RentApartment";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "7-RentApartment/7-RentApartment-Prefix.pch";
+				INFOPLIST_FILE = "7-RentApartmentTests/7-RentApartmentTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCB0588F188595C40028E913 /* Build configuration list for PBXProject "7-RentApartment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCB058C4188595C40028E913 /* Debug */,
+				DCB058C5188595C40028E913 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCB058C6188595C40028E913 /* Build configuration list for PBXNativeTarget "7-RentApartment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCB058C7188595C40028E913 /* Debug */,
+				DCB058C8188595C40028E913 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DCB058C9188595C40028E913 /* Build configuration list for PBXNativeTarget "7-RentApartmentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCB058CA188595C40028E913 /* Debug */,
+				DCB058CB188595C40028E913 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DCB058AB188595C40028E913 /* __RentApartment.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DCB058AC188595C40028E913 /* __RentApartment.xcdatamodel */,
+			);
+			currentVersion = DCB058AC188595C40028E913 /* __RentApartment.xcdatamodel */;
+			path = __RentApartment.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DCB0588C188595C40028E913 /* Project object */;
+}

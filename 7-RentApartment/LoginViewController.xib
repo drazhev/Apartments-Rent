@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="4514" systemVersion="13B42" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoginViewController">
+            <connections>
+                <outlet property="passwordTextField" destination="8b1-db-cP5" id="hVl-al-uR0"/>
+                <outlet property="usernameTextField" destination="woa-1N-gDV" id="tMT-pQ-j6y"/>
+                <outlet property="view" destination="2" id="3"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="2">
+            <rect key="frame" x="0.0" y="0.0" width="768" height="1004"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username..." minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="woa-1N-gDV">
+                    <rect key="frame" x="20" y="100" width="730" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <constraints>
+                        <constraint firstAttribute="height" relation="lessThanOrEqual" constant="100" id="Fvs-1A-tYt"/>
+                        <constraint firstAttribute="height" constant="30" id="Jfh-Zc-fKI"/>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="hzF-6b-tgN"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8b1-db-cP5">
+                    <rect key="frame" x="20" y="149" width="730" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eX3-Yt-VMH">
+                    <rect key="frame" x="389" y="187" width="361" height="36"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <state key="normal" title="Register">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="registerButtonTapped:" destination="-1" eventType="touchUpInside" id="Q7n-XS-N15"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BCk-DT-1ve">
+                    <rect key="frame" x="20" y="187" width="361" height="36"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <state key="normal" title="Login">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="loginButtonTapped:" destination="-1" eventType="touchUpInside" id="3tx-bx-1rU"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="8b1-db-cP5" firstAttribute="centerX" secondItem="woa-1N-gDV" secondAttribute="centerX" id="35g-vO-8LN"/>
+                <constraint firstAttribute="trailing" secondItem="eX3-Yt-VMH" secondAttribute="trailing" constant="20" symbolic="YES" id="57f-xa-qgF"/>
+                <constraint firstAttribute="trailing" secondItem="woa-1N-gDV" secondAttribute="trailing" constant="20" symbolic="YES" id="BXc-I1-lN6"/>
+                <constraint firstItem="8b1-db-cP5" firstAttribute="leading" secondItem="woa-1N-gDV" secondAttribute="leading" id="GGq-c5-PNs"/>
+                <constraint firstItem="BCk-DT-1ve" firstAttribute="top" secondItem="8b1-db-cP5" secondAttribute="bottom" constant="8" symbolic="YES" id="Uww-xN-VgX"/>
+                <constraint firstItem="eX3-Yt-VMH" firstAttribute="height" secondItem="BCk-DT-1ve" secondAttribute="height" id="aV8-OR-rzY"/>
+                <constraint firstItem="woa-1N-gDV" firstAttribute="top" secondItem="2" secondAttribute="top" constant="100" id="fFY-7Q-Qb3"/>
+                <constraint firstItem="eX3-Yt-VMH" firstAttribute="width" secondItem="BCk-DT-1ve" secondAttribute="width" id="fZn-DI-LK2"/>
+                <constraint firstItem="eX3-Yt-VMH" firstAttribute="top" secondItem="BCk-DT-1ve" secondAttribute="top" id="kT7-bH-yjh"/>
+                <constraint firstItem="eX3-Yt-VMH" firstAttribute="leading" secondItem="BCk-DT-1ve" secondAttribute="trailing" constant="8" symbolic="YES" id="qrK-On-53q"/>
+                <constraint firstItem="BCk-DT-1ve" firstAttribute="leading" secondItem="2" secondAttribute="leading" constant="20" symbolic="YES" id="soe-zv-tr2"/>
+                <constraint firstItem="woa-1N-gDV" firstAttribute="leading" secondItem="2" secondAttribute="leading" constant="20" symbolic="YES" id="vGW-1c-tZS"/>
+                <constraint firstItem="8b1-db-cP5" firstAttribute="top" secondItem="woa-1N-gDV" secondAttribute="bottom" constant="19" id="zx2-nh-f2b"/>
+            </constraints>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+        </view>
+    </objects>
+</document>

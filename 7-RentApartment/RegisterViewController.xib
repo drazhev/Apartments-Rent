@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="4514" systemVersion="13B42" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RegisterViewController">
+            <connections>
+                <outlet property="addressTextField" destination="K0r-lG-yOR" id="GAx-CG-edZ"/>
+                <outlet property="ageTextField" destination="Lrx-5A-B7Z" id="OnL-gN-tgA"/>
+                <outlet property="firstNameTextField" destination="qH9-JK-N0a" id="qg2-aH-XwG"/>
+                <outlet property="lastNameTextField" destination="Stc-zn-IZB" id="70D-9s-uQf"/>
+                <outlet property="passwordTextField" destination="g02-kT-zMB" id="5qR-6W-cRz"/>
+                <outlet property="usernameTextField" destination="Rw0-Dg-vVs" id="aBX-Pw-WbQ"/>
+                <outlet property="view" destination="2" id="3"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="2">
+            <rect key="frame" x="0.0" y="0.0" width="768" height="1004"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username..." minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Rw0-Dg-vVs">
+                    <rect key="frame" x="20" y="100" width="728" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password..." minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="g02-kT-zMB">
+                    <rect key="frame" x="20" y="138" width="728" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Age..." minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Lrx-5A-B7Z">
+                    <rect key="frame" x="20" y="252" width="728" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="First Name..." minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qH9-JK-N0a">
+                    <rect key="frame" x="20" y="176" width="728" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Last Name..." minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Stc-zn-IZB">
+                    <rect key="frame" x="20" y="214" width="728" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Address..." minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="K0r-lG-yOR">
+                    <rect key="frame" x="20" y="290" width="728" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="qH9-JK-N0a" firstAttribute="top" secondItem="g02-kT-zMB" secondAttribute="bottom" constant="8" symbolic="YES" id="05Y-KC-ejV"/>
+                <constraint firstItem="Stc-zn-IZB" firstAttribute="top" secondItem="qH9-JK-N0a" secondAttribute="bottom" constant="8" symbolic="YES" id="2Yg-MB-8yJ"/>
+                <constraint firstItem="Rw0-Dg-vVs" firstAttribute="top" secondItem="2" secondAttribute="top" constant="100" id="4ka-Ax-npb"/>
+                <constraint firstItem="g02-kT-zMB" firstAttribute="top" secondItem="Rw0-Dg-vVs" secondAttribute="bottom" constant="8" symbolic="YES" id="4t2-qP-YuV"/>
+                <constraint firstAttribute="trailing" secondItem="Stc-zn-IZB" secondAttribute="trailing" constant="20" symbolic="YES" id="6Pm-EA-uWP"/>
+                <constraint firstAttribute="trailing" secondItem="g02-kT-zMB" secondAttribute="trailing" constant="20" symbolic="YES" id="6Yw-q3-fsJ"/>
+                <constraint firstItem="Rw0-Dg-vVs" firstAttribute="leading" secondItem="2" secondAttribute="leading" constant="20" symbolic="YES" id="EJv-OI-HD2"/>
+                <constraint firstItem="Lrx-5A-B7Z" firstAttribute="leading" secondItem="2" secondAttribute="leading" constant="20" symbolic="YES" id="Fuj-qx-pMb"/>
+                <constraint firstAttribute="trailing" secondItem="Lrx-5A-B7Z" secondAttribute="trailing" constant="20" symbolic="YES" id="GDz-BQ-bfm"/>
+                <constraint firstItem="Rw0-Dg-vVs" firstAttribute="centerX" secondItem="Lrx-5A-B7Z" secondAttribute="centerX" id="HS9-H2-tRY"/>
+                <constraint firstItem="qH9-JK-N0a" firstAttribute="leading" secondItem="2" secondAttribute="leading" constant="20" symbolic="YES" id="Imo-If-BFk"/>
+                <constraint firstItem="g02-kT-zMB" firstAttribute="leading" secondItem="2" secondAttribute="leading" constant="20" symbolic="YES" id="QyD-ra-bKa"/>
+                <constraint firstItem="Rw0-Dg-vVs" firstAttribute="centerX" secondItem="qH9-JK-N0a" secondAttribute="centerX" id="RfE-2O-19y"/>
+                <constraint firstItem="Rw0-Dg-vVs" firstAttribute="centerX" secondItem="g02-kT-zMB" secondAttribute="centerX" id="SZd-6B-aB4"/>
+                <constraint firstItem="Stc-zn-IZB" firstAttribute="leading" secondItem="2" secondAttribute="leading" constant="20" symbolic="YES" id="TmP-hc-el6"/>
+                <constraint firstItem="K0r-lG-yOR" firstAttribute="leading" secondItem="2" secondAttribute="leading" constant="20" symbolic="YES" id="Wgw-tl-9Fg"/>
+                <constraint firstItem="Stc-zn-IZB" firstAttribute="top" secondItem="qH9-JK-N0a" secondAttribute="bottom" constant="8" symbolic="YES" id="ccJ-hZ-PSH"/>
+                <constraint firstAttribute="trailing" secondItem="K0r-lG-yOR" secondAttribute="trailing" constant="20" symbolic="YES" id="i7v-uy-Lg7"/>
+                <constraint firstItem="Lrx-5A-B7Z" firstAttribute="top" secondItem="Stc-zn-IZB" secondAttribute="bottom" constant="8" symbolic="YES" id="pSL-Gf-Vbd"/>
+                <constraint firstItem="K0r-lG-yOR" firstAttribute="top" secondItem="Lrx-5A-B7Z" secondAttribute="bottom" constant="8" symbolic="YES" id="rHV-IA-Kcc"/>
+                <constraint firstItem="Rw0-Dg-vVs" firstAttribute="centerX" secondItem="Stc-zn-IZB" secondAttribute="centerX" id="rxg-mz-4vY"/>
+                <constraint firstAttribute="trailing" secondItem="Rw0-Dg-vVs" secondAttribute="trailing" constant="20" symbolic="YES" id="vkS-9Z-N8Z"/>
+                <constraint firstAttribute="trailing" secondItem="qH9-JK-N0a" secondAttribute="trailing" constant="20" symbolic="YES" id="wO3-01-Rnh"/>
+            </constraints>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+        </view>
+    </objects>
+</document>
