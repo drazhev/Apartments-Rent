@@ -23,6 +23,11 @@
     return self;
 }
 
+- (BOOL)textFieldShouldReturn:(UITextField *)textField {
+    [textField resignFirstResponder];
+    return NO;
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -33,6 +38,13 @@
                                    target:self
                                    action:@selector(registerButtonTapped:)];
     self.navigationItem.rightBarButtonItem = registerButton;
+    
+    self.usernameTextField.delegate = self;
+    self.passwordTextField.delegate = self;
+    self.firstNameTextField.delegate = self;
+    self.lastNameTextField.delegate = self;
+    self.addressTextField.delegate = self;
+    self.ageTextField.delegate = self;
     // Do any additional setup after loading the view from its nib.
 }
 

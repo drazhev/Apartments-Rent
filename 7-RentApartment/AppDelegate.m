@@ -29,6 +29,22 @@
     newApartment.location = [self genRandStringLength:10];
     newApartment.rooms = [NSNumber numberWithInt:arc4random() % 5 + 1];
     newApartment.price = [NSNumber numberWithInt:arc4random() % 500 + 100];
+    newApartment.details = [self genRandStringLength:1000];
+    newApartment.name = [self genRandStringLength:10];
+    
+    for (int i = 0; i < arc4random() % 20 + 1; i++) {
+        
+        Comment* newComment = [NSEntityDescription insertNewObjectForEntityForName:@"Comment" inManagedObjectContext:self.managedObjectContext];
+        newComment.message = [NSString stringWithFormat:@"This is a random comment message: %@", [self genRandStringLength:1000]];
+        newComment.dateAdded = [NSDate date];
+        
+        User* newUser = [NSEntityDescription insertNewObjectForEntityForName:@"User" inManagedObjectContext:self.managedObjectContext];
+        newUser.username = [NSString stringWithFormat:@"%@ (random username)",[self genRandStringLength:10]];
+        newUser.age = [NSNumber numberWithInt:arc4random() % 100 + 1];
+        newComment.author = newUser;
+        
+        [newApartment addCommentsObject:newComment];
+    }
 }
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
@@ -56,7 +72,7 @@
         
         [self.managedObjectContext save:nil];
     }
-    [NSTimer scheduledTimerWithTimeInterval:5.0
+    [NSTimer scheduledTimerWithTimeInterval:10.00
                                      target:self
                                    selector:@selector(updateApartments)
                                    userInfo:nil
@@ -69,16 +85,26 @@
     NSFetchRequest *request = [[NSFetchRequest alloc] initWithEntityName:@"Apartment"];
     request.sortDescriptors = nil;
     NSArray* results = [self.managedObjectContext executeFetchRequest:request error:nil];
-    Apartment* randomApartment = (Apartment*)results[arc4random() % results.count];
+    Apartment* randomApartment;
+    do {
+        randomApartment = (Apartment*)results[arc4random() % results.count];
+    }
+    // this is to prevent the random function from modifying the apartment that we are reviewing
+    while (randomApartment == self.selectedApartment);
     randomApartment.location = [self genRandStringLength:10];
     randomApartment.rooms = [NSNumber numberWithInt:arc4random() % 5 + 1];
     randomApartment.price = [NSNumber numberWithInt:arc4random() % 500 + 100];
+    randomApartment.details = [self genRandStringLength:1000];
+    randomApartment.name = [self genRandStringLength:10];
     [self.managedObjectContext save:nil];
     
     [self insertRandomApartment];
     [self.managedObjectContext save:nil];
-
-    
+    // this is to prevent the random function from modifying the apartment that we are reviewing
+    do {
+        randomApartment = (Apartment*)results[arc4random() % results.count];
+    }
+    while (randomApartment == self.selectedApartment);
     [self.managedObjectContext deleteObject:results[arc4random() % results.count]];
     [self.managedObjectContext save:nil];
     

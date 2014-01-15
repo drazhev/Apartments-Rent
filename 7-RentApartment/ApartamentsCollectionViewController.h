@@ -10,7 +10,10 @@
 #import "ApartmentsCollectionViewCell.h"
 #import "AppDelegate.h"
 #import "Apartment.h"
+#import "NewApartmentViewController.h"
+#import "ApartmentDetailsViewController.h"
+#import "SearchPopoverViewController.h"
 
-@interface ApartamentsCollectionViewController : UICollectionViewController <UICollectionViewDataSource, UICollectionViewDelegate, NSFetchedResultsControllerDelegate>
+@interface ApartamentsCollectionViewController : UICollectionViewController <UICollectionViewDataSource, UICollectionViewDelegate, NSFetchedResultsControllerDelegate, PopoverDelegate>
 
 @end

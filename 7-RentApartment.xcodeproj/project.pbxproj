@@ -24,15 +24,26 @@
 		DCB058C3188595C40028E913 /* __RentApartmentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB058C2188595C40028E913 /* __RentApartmentTests.m */; };
 		DCB058CF188596380028E913 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB058CD188596380028E913 /* LoginViewController.m */; };
 		DCB058D0188596380028E913 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCB058CE188596380028E913 /* LoginViewController.xib */; };
-		DCB058D3188598CC0028E913 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB058D2188598CC0028E913 /* User.m */; };
 		DCB058D718859FB00028E913 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB058D518859FB00028E913 /* RegisterViewController.m */; };
 		DCB058D818859FB00028E913 /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCB058D618859FB00028E913 /* RegisterViewController.xib */; };
 		DCB058E11885B68C0028E913 /* ApartamentsCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB058DF1885B68C0028E913 /* ApartamentsCollectionViewController.m */; };
 		DCB058E21885B68C0028E913 /* ApartamentsCollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCB058E01885B68C0028E913 /* ApartamentsCollectionViewController.xib */; };
 		DCB058E51885B9F90028E913 /* ApartmentsCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB058E41885B9F90028E913 /* ApartmentsCollectionViewCell.m */; };
 		DCB058E71885BAED0028E913 /* ApartmentsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCB058E61885BAED0028E913 /* ApartmentsCollectionViewCell.xib */; };
-		DCB058EA1885BDF30028E913 /* Apartment.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB058E91885BDF30028E913 /* Apartment.m */; };
 		DCB058EC1885C1960028E913 /* defaultImage.png in Resources */ = {isa = PBXBuildFile; fileRef = DCB058EB1885C1960028E913 /* defaultImage.png */; };
+		DCB8C4CD1886DB3300E35A2C /* Comment.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB8C4CC1886DB3300E35A2C /* Comment.m */; };
+		DCB8C4D01886DB3300E35A2C /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB8C4CF1886DB3300E35A2C /* User.m */; };
+		DCB8C4D41886DCA500E35A2C /* NewApartmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB8C4D21886DCA500E35A2C /* NewApartmentViewController.m */; };
+		DCB8C4D51886DCA500E35A2C /* NewApartmentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCB8C4D31886DCA500E35A2C /* NewApartmentViewController.xib */; };
+		DCB8C4DB1886E1A800E35A2C /* Apartment.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB8C4DA1886E1A800E35A2C /* Apartment.m */; };
+		DCB8C4DF1886EB9900E35A2C /* ApartmentDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB8C4DD1886EB9900E35A2C /* ApartmentDetailsViewController.m */; };
+		DCB8C4E01886EB9900E35A2C /* ApartmentDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCB8C4DE1886EB9900E35A2C /* ApartmentDetailsViewController.xib */; };
+		DCB8C4E41886F78800E35A2C /* CommentsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB8C4E21886F78800E35A2C /* CommentsTableViewController.m */; };
+		DCB8C4E51886F78800E35A2C /* CommentsTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCB8C4E31886F78800E35A2C /* CommentsTableViewController.xib */; };
+		DCB8C4E81886FC3700E35A2C /* CommentsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB8C4E71886FC3700E35A2C /* CommentsTableViewCell.m */; };
+		DCB8C4EA1886FC6900E35A2C /* CommentsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCB8C4E91886FC6900E35A2C /* CommentsTableViewCell.xib */; };
+		DCB8C4EE1887193B00E35A2C /* SearchPopoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB8C4EC1887193B00E35A2C /* SearchPopoverViewController.m */; };
+		DCB8C4EF1887193B00E35A2C /* SearchPopoverViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCB8C4ED1887193B00E35A2C /* SearchPopoverViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,8 +78,6 @@
 		DCB058CC188596380028E913 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		DCB058CD188596380028E913 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		DCB058CE188596380028E913 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
-		DCB058D1188598CC0028E913 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
-		DCB058D2188598CC0028E913 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
 		DCB058D418859FB00028E913 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
 		DCB058D518859FB00028E913 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
 		DCB058D618859FB00028E913 /* RegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegisterViewController.xib; sourceTree = "<group>"; };
@@ -78,9 +87,28 @@
 		DCB058E31885B9F90028E913 /* ApartmentsCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApartmentsCollectionViewCell.h; sourceTree = "<group>"; };
 		DCB058E41885B9F90028E913 /* ApartmentsCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApartmentsCollectionViewCell.m; sourceTree = "<group>"; };
 		DCB058E61885BAED0028E913 /* ApartmentsCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ApartmentsCollectionViewCell.xib; sourceTree = "<group>"; };
-		DCB058E81885BDF30028E913 /* Apartment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Apartment.h; sourceTree = "<group>"; };
-		DCB058E91885BDF30028E913 /* Apartment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Apartment.m; sourceTree = "<group>"; };
 		DCB058EB1885C1960028E913 /* defaultImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = defaultImage.png; sourceTree = "<group>"; };
+		DCB8C4CB1886DB3300E35A2C /* Comment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Comment.h; sourceTree = "<group>"; };
+		DCB8C4CC1886DB3300E35A2C /* Comment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Comment.m; sourceTree = "<group>"; };
+		DCB8C4CE1886DB3300E35A2C /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		DCB8C4CF1886DB3300E35A2C /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		DCB8C4D11886DCA500E35A2C /* NewApartmentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewApartmentViewController.h; sourceTree = "<group>"; };
+		DCB8C4D21886DCA500E35A2C /* NewApartmentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewApartmentViewController.m; sourceTree = "<group>"; };
+		DCB8C4D31886DCA500E35A2C /* NewApartmentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewApartmentViewController.xib; sourceTree = "<group>"; };
+		DCB8C4D91886E1A800E35A2C /* Apartment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Apartment.h; sourceTree = "<group>"; };
+		DCB8C4DA1886E1A800E35A2C /* Apartment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Apartment.m; sourceTree = "<group>"; };
+		DCB8C4DC1886EB9900E35A2C /* ApartmentDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApartmentDetailsViewController.h; sourceTree = "<group>"; };
+		DCB8C4DD1886EB9900E35A2C /* ApartmentDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApartmentDetailsViewController.m; sourceTree = "<group>"; };
+		DCB8C4DE1886EB9900E35A2C /* ApartmentDetailsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ApartmentDetailsViewController.xib; sourceTree = "<group>"; };
+		DCB8C4E11886F78800E35A2C /* CommentsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentsTableViewController.h; sourceTree = "<group>"; };
+		DCB8C4E21886F78800E35A2C /* CommentsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentsTableViewController.m; sourceTree = "<group>"; };
+		DCB8C4E31886F78800E35A2C /* CommentsTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CommentsTableViewController.xib; sourceTree = "<group>"; };
+		DCB8C4E61886FC3700E35A2C /* CommentsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentsTableViewCell.h; sourceTree = "<group>"; };
+		DCB8C4E71886FC3700E35A2C /* CommentsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentsTableViewCell.m; sourceTree = "<group>"; };
+		DCB8C4E91886FC6900E35A2C /* CommentsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CommentsTableViewCell.xib; sourceTree = "<group>"; };
+		DCB8C4EB1887193B00E35A2C /* SearchPopoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchPopoverViewController.h; sourceTree = "<group>"; };
+		DCB8C4EC1887193B00E35A2C /* SearchPopoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchPopoverViewController.m; sourceTree = "<group>"; };
+		DCB8C4ED1887193B00E35A2C /* SearchPopoverViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchPopoverViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,10 +176,12 @@
 				DCB058A9188595C40028E913 /* AppDelegate.m */,
 				DCB058AE188595C40028E913 /* Images.xcassets */,
 				DCB058AB188595C40028E913 /* __RentApartment.xcdatamodeld */,
-				DCB058E81885BDF30028E913 /* Apartment.h */,
-				DCB058E91885BDF30028E913 /* Apartment.m */,
-				DCB058D1188598CC0028E913 /* User.h */,
-				DCB058D2188598CC0028E913 /* User.m */,
+				DCB8C4D91886E1A800E35A2C /* Apartment.h */,
+				DCB8C4DA1886E1A800E35A2C /* Apartment.m */,
+				DCB8C4CE1886DB3300E35A2C /* User.h */,
+				DCB8C4CF1886DB3300E35A2C /* User.m */,
+				DCB8C4CB1886DB3300E35A2C /* Comment.h */,
+				DCB8C4CC1886DB3300E35A2C /* Comment.m */,
 				DCB058A0188595C40028E913 /* Supporting Files */,
 				DCB058CC188596380028E913 /* LoginViewController.h */,
 				DCB058CD188596380028E913 /* LoginViewController.m */,
@@ -165,6 +195,21 @@
 				DCB058E31885B9F90028E913 /* ApartmentsCollectionViewCell.h */,
 				DCB058E41885B9F90028E913 /* ApartmentsCollectionViewCell.m */,
 				DCB058E61885BAED0028E913 /* ApartmentsCollectionViewCell.xib */,
+				DCB8C4D11886DCA500E35A2C /* NewApartmentViewController.h */,
+				DCB8C4D21886DCA500E35A2C /* NewApartmentViewController.m */,
+				DCB8C4D31886DCA500E35A2C /* NewApartmentViewController.xib */,
+				DCB8C4DC1886EB9900E35A2C /* ApartmentDetailsViewController.h */,
+				DCB8C4DD1886EB9900E35A2C /* ApartmentDetailsViewController.m */,
+				DCB8C4DE1886EB9900E35A2C /* ApartmentDetailsViewController.xib */,
+				DCB8C4E11886F78800E35A2C /* CommentsTableViewController.h */,
+				DCB8C4E21886F78800E35A2C /* CommentsTableViewController.m */,
+				DCB8C4E31886F78800E35A2C /* CommentsTableViewController.xib */,
+				DCB8C4E61886FC3700E35A2C /* CommentsTableViewCell.h */,
+				DCB8C4E71886FC3700E35A2C /* CommentsTableViewCell.m */,
+				DCB8C4E91886FC6900E35A2C /* CommentsTableViewCell.xib */,
+				DCB8C4EB1887193B00E35A2C /* SearchPopoverViewController.h */,
+				DCB8C4EC1887193B00E35A2C /* SearchPopoverViewController.m */,
+				DCB8C4ED1887193B00E35A2C /* SearchPopoverViewController.xib */,
 			);
 			path = "7-RentApartment";
 			sourceTree = "<group>";
@@ -273,13 +318,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCB8C4EA1886FC6900E35A2C /* CommentsTableViewCell.xib in Resources */,
 				DCB058E71885BAED0028E913 /* ApartmentsCollectionViewCell.xib in Resources */,
 				DCB058A4188595C40028E913 /* InfoPlist.strings in Resources */,
 				DCB058AF188595C40028E913 /* Images.xcassets in Resources */,
+				DCB8C4EF1887193B00E35A2C /* SearchPopoverViewController.xib in Resources */,
 				DCB058E21885B68C0028E913 /* ApartamentsCollectionViewController.xib in Resources */,
+				DCB8C4D51886DCA500E35A2C /* NewApartmentViewController.xib in Resources */,
+				DCB8C4E51886F78800E35A2C /* CommentsTableViewController.xib in Resources */,
 				DCB058D0188596380028E913 /* LoginViewController.xib in Resources */,
 				DCB058EC1885C1960028E913 /* defaultImage.png in Resources */,
 				DCB058D818859FB00028E913 /* RegisterViewController.xib in Resources */,
+				DCB8C4E01886EB9900E35A2C /* ApartmentDetailsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,11 +348,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DCB058EA1885BDF30028E913 /* Apartment.m in Sources */,
-				DCB058D3188598CC0028E913 /* User.m in Sources */,
+				DCB8C4DF1886EB9900E35A2C /* ApartmentDetailsViewController.m in Sources */,
+				DCB8C4D01886DB3300E35A2C /* User.m in Sources */,
+				DCB8C4EE1887193B00E35A2C /* SearchPopoverViewController.m in Sources */,
 				DCB058D718859FB00028E913 /* RegisterViewController.m in Sources */,
+				DCB8C4E81886FC3700E35A2C /* CommentsTableViewCell.m in Sources */,
+				DCB8C4E41886F78800E35A2C /* CommentsTableViewController.m in Sources */,
+				DCB8C4D41886DCA500E35A2C /* NewApartmentViewController.m in Sources */,
+				DCB8C4CD1886DB3300E35A2C /* Comment.m in Sources */,
 				DCB058CF188596380028E913 /* LoginViewController.m in Sources */,
 				DCB058AD188595C40028E913 /* __RentApartment.xcdatamodeld in Sources */,
+				DCB8C4DB1886E1A800E35A2C /* Apartment.m in Sources */,
 				DCB058AA188595C40028E913 /* AppDelegate.m in Sources */,
 				DCB058E11885B68C0028E913 /* ApartamentsCollectionViewController.m in Sources */,
 				DCB058A6188595C40028E913 /* main.m in Sources */,
@@ -509,6 +565,7 @@
 				DCB058C8188595C40028E913 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DCB058C9188595C40028E913 /* Build configuration list for PBXNativeTarget "7-RentApartmentTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +574,7 @@
 				DCB058CB188595C40028E913 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

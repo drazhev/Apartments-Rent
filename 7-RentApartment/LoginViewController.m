@@ -23,11 +23,17 @@
     return self;
 }
 
+- (BOOL)textFieldShouldReturn:(UITextField *)textField {
+    [textField resignFirstResponder];
+    return NO;
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    self.title = @
-    "Login";
+    self.title = @"Login";
+    self.usernameTextField.delegate = self;
+    self.passwordTextField.delegate = self;
     // Do any additional setup after loading the view from its nib.
 }
 
