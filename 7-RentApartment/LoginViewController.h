@@ -10,7 +10,7 @@
 #import "RegisterViewController.h"
 #import "AppDelegate.h"
 #import "User.h"
-#import "ApartamentsCollectionViewController.h"
+#import "ApartmentsCollectionViewController.h"
 
 @interface LoginViewController : UIViewController <UITextFieldDelegate>
 @property (weak, nonatomic) IBOutlet UITextField *usernameTextField;

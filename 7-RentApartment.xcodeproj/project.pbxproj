@@ -26,8 +26,8 @@
 		DCB058D0188596380028E913 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCB058CE188596380028E913 /* LoginViewController.xib */; };
 		DCB058D718859FB00028E913 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB058D518859FB00028E913 /* RegisterViewController.m */; };
 		DCB058D818859FB00028E913 /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCB058D618859FB00028E913 /* RegisterViewController.xib */; };
-		DCB058E11885B68C0028E913 /* ApartamentsCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB058DF1885B68C0028E913 /* ApartamentsCollectionViewController.m */; };
-		DCB058E21885B68C0028E913 /* ApartamentsCollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCB058E01885B68C0028E913 /* ApartamentsCollectionViewController.xib */; };
+		DCB058E11885B68C0028E913 /* ApartmentsCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB058DF1885B68C0028E913 /* ApartmentsCollectionViewController.m */; };
+		DCB058E21885B68C0028E913 /* ApartmentsCollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCB058E01885B68C0028E913 /* ApartmentsCollectionViewController.xib */; };
 		DCB058E51885B9F90028E913 /* ApartmentsCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB058E41885B9F90028E913 /* ApartmentsCollectionViewCell.m */; };
 		DCB058E71885BAED0028E913 /* ApartmentsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCB058E61885BAED0028E913 /* ApartmentsCollectionViewCell.xib */; };
 		DCB058EC1885C1960028E913 /* defaultImage.png in Resources */ = {isa = PBXBuildFile; fileRef = DCB058EB1885C1960028E913 /* defaultImage.png */; };
@@ -81,9 +81,9 @@
 		DCB058D418859FB00028E913 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
 		DCB058D518859FB00028E913 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
 		DCB058D618859FB00028E913 /* RegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegisterViewController.xib; sourceTree = "<group>"; };
-		DCB058DE1885B68C0028E913 /* ApartamentsCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApartamentsCollectionViewController.h; sourceTree = "<group>"; };
-		DCB058DF1885B68C0028E913 /* ApartamentsCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApartamentsCollectionViewController.m; sourceTree = "<group>"; };
-		DCB058E01885B68C0028E913 /* ApartamentsCollectionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ApartamentsCollectionViewController.xib; sourceTree = "<group>"; };
+		DCB058DE1885B68C0028E913 /* ApartmentsCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApartmentsCollectionViewController.h; sourceTree = "<group>"; };
+		DCB058DF1885B68C0028E913 /* ApartmentsCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApartmentsCollectionViewController.m; sourceTree = "<group>"; };
+		DCB058E01885B68C0028E913 /* ApartmentsCollectionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ApartmentsCollectionViewController.xib; sourceTree = "<group>"; };
 		DCB058E31885B9F90028E913 /* ApartmentsCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApartmentsCollectionViewCell.h; sourceTree = "<group>"; };
 		DCB058E41885B9F90028E913 /* ApartmentsCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApartmentsCollectionViewCell.m; sourceTree = "<group>"; };
 		DCB058E61885BAED0028E913 /* ApartmentsCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ApartmentsCollectionViewCell.xib; sourceTree = "<group>"; };
@@ -189,9 +189,9 @@
 				DCB058D418859FB00028E913 /* RegisterViewController.h */,
 				DCB058D518859FB00028E913 /* RegisterViewController.m */,
 				DCB058D618859FB00028E913 /* RegisterViewController.xib */,
-				DCB058DE1885B68C0028E913 /* ApartamentsCollectionViewController.h */,
-				DCB058DF1885B68C0028E913 /* ApartamentsCollectionViewController.m */,
-				DCB058E01885B68C0028E913 /* ApartamentsCollectionViewController.xib */,
+				DCB058DE1885B68C0028E913 /* ApartmentsCollectionViewController.h */,
+				DCB058DF1885B68C0028E913 /* ApartmentsCollectionViewController.m */,
+				DCB058E01885B68C0028E913 /* ApartmentsCollectionViewController.xib */,
 				DCB058E31885B9F90028E913 /* ApartmentsCollectionViewCell.h */,
 				DCB058E41885B9F90028E913 /* ApartmentsCollectionViewCell.m */,
 				DCB058E61885BAED0028E913 /* ApartmentsCollectionViewCell.xib */,
@@ -323,7 +323,7 @@
 				DCB058A4188595C40028E913 /* InfoPlist.strings in Resources */,
 				DCB058AF188595C40028E913 /* Images.xcassets in Resources */,
 				DCB8C4EF1887193B00E35A2C /* SearchPopoverViewController.xib in Resources */,
-				DCB058E21885B68C0028E913 /* ApartamentsCollectionViewController.xib in Resources */,
+				DCB058E21885B68C0028E913 /* ApartmentsCollectionViewController.xib in Resources */,
 				DCB8C4D51886DCA500E35A2C /* NewApartmentViewController.xib in Resources */,
 				DCB8C4E51886F78800E35A2C /* CommentsTableViewController.xib in Resources */,
 				DCB058D0188596380028E913 /* LoginViewController.xib in Resources */,
@@ -360,7 +360,7 @@
 				DCB058AD188595C40028E913 /* __RentApartment.xcdatamodeld in Sources */,
 				DCB8C4DB1886E1A800E35A2C /* Apartment.m in Sources */,
 				DCB058AA188595C40028E913 /* AppDelegate.m in Sources */,
-				DCB058E11885B68C0028E913 /* ApartamentsCollectionViewController.m in Sources */,
+				DCB058E11885B68C0028E913 /* ApartmentsCollectionViewController.m in Sources */,
 				DCB058A6188595C40028E913 /* main.m in Sources */,
 				DCB058E51885B9F90028E913 /* ApartmentsCollectionViewCell.m in Sources */,
 			);

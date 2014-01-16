@@ -14,6 +14,6 @@
 #import "ApartmentDetailsViewController.h"
 #import "SearchPopoverViewController.h"
 
-@interface ApartamentsCollectionViewController : UICollectionViewController <UICollectionViewDataSource, UICollectionViewDelegate, NSFetchedResultsControllerDelegate, PopoverDelegate>
+@interface ApartmentsCollectionViewController : UICollectionViewController <UICollectionViewDataSource, UICollectionViewDelegate, NSFetchedResultsControllerDelegate, PopoverDelegate>
 
 @end

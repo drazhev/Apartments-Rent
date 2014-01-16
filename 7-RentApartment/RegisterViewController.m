@@ -88,7 +88,7 @@
         }
         
         else {
-            ApartamentsCollectionViewController* apartmentsVC = [[ApartamentsCollectionViewController alloc] initWithNibName:@"ApartamentsCollectionViewController" bundle:nil];
+            ApartmentsCollectionViewController* apartmentsVC = [[ApartmentsCollectionViewController alloc] initWithNibName:@"ApartmentsCollectionViewController" bundle:nil];
             [self.navigationController pushViewController:apartmentsVC animated:YES];
         }
     }

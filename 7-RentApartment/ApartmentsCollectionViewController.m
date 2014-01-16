@@ -6,9 +6,9 @@
 //  Copyright (c) 2014 Alexander Drazhev. All rights reserved.
 //
 
-#import "ApartamentsCollectionViewController.h"
+#import "ApartmentsCollectionViewController.h"
 
-@interface ApartamentsCollectionViewController ()
+@interface ApartmentsCollectionViewController ()
 
 @property (nonatomic, strong) NSFetchedResultsController* fetchedResultsController;
 @property (nonatomic, strong) NSManagedObjectContext* context;
@@ -17,7 +17,7 @@
 
 @end
 
-@implementation ApartamentsCollectionViewController
+@implementation ApartmentsCollectionViewController
 
 -(NSFetchedResultsController*) fetchedResultsController {
     if (_fetchedResultsController != nil) {
